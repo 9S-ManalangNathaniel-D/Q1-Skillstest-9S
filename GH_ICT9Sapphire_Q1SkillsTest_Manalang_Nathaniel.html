@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skillstest Manalang</title>
+    <style>
+
+        body{
+            margin:10px;
+            background-image: url(https://img.magnific.com/premium-photo/futuristic-ai-robot-with-glowing-red-eyes-cybernetic-helmet-against-blue-technology-background-digital-innovation-artificial-intelligence-network-security-cyber-security-automation-conce_923559-19645.jpg?semt=ais_hybrid&w=740&q=80);
+            background-repeat: no-repeat ;
+            background-size: cover;
+            background-color: rgb(16, 85, 102);
+        }
+
+        h1{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        p{
+            font-family: 'Times New Roman', Times, serif
+            
+        }
+
+        .OBMC-logo{
+            background-image: url();
+        }
+
+        .OBMC-txt{
+            font-size: larger;
+            font-variant: small-caps;
+            color:dodgerblue;
+        }
+
+        .Robotics-form{
+            background-color: white;
+            border: 1px;
+            border-radius: 22px;
+            width: 60%;
+            padding: 2%;
+        }
+
+        input{
+            border: 0;
+            border-color: rgb(245, 245, 245);
+            background-color: rgb(245, 245, 245);
+            padding: 1%;
+        }
+
+        select{
+            border: 0;
+            background-color:rgb(245, 245, 245);
+            border-radius: 10px;
+            width: 92%;
+            padding: 1%;
+        }
+
+        textarea{
+            color: rgb(245, 245, 245);
+        }
+
+    </style>
+</head>
+<body>
+    <div class="background-image">
+
+    </div>
+
+    <form class="Robotics-form">
+            
+        <div class="OBMC-logo">
+            <div class="OBMC-txt">
+                <center>
+                    <u>OBMC Robotics Club Application Form</u>
+                </center>
+            </div>
+        </div>
+
+        <div class="sub-txt">
+            <p>Welcome! Please fill out this form to apply to our schools robotics club</p>
+        </div>
+
+        <div>
+            <label for="FULL-NAME">Name:</label>
+            <br>
+            <Input id="FULL-NAME" type="text" placeholder="Enter Name" style="width: 95%;"></Input>
+
+            <br>
+
+            <br>
+
+            <label for="email">Email Address:</label>
+            <br>
+            <Input id="email" type="email" placeholder="Enter Email" style="width: 95%;"></Input>
+        </div>  
+        
+        <br>
+
+        <div class="Grades">
+            <label for="Grade">Grade:</label>
+            <br>
+            <select name="number-of-pizza" id="Grade">
+                <option value="1">Grade 7</option>
+                <option value="2">Grade 8</option>
+                <option value="3">Grade 9</option>
+                <option value="4">Grade 10</option>
+                <option value="5">Grade 11</option>
+                <option value="6">Grade 12</option>
+            </select>
+        </div>
+            
+
+        <br>
+
+
+        <div class="Gender">
+            <legend>Gender:</legend>
+
+            <input type="radio" name="Gender" id="Male" value="Male">
+            <label for="Male">Male</label>
+            
+            <input type="radio" name="Gender" id="Female" value="Female">
+            <label for="Female">Female</label>
+                
+        </div>
+
+        <br>
+
+        <div>What are your Coding skills?
+            <br>
+
+            <input type="checkbox" name="Skills">
+            <label for="Skills">Coding</label>
+
+            <input type="checkbox" name="Skills">
+            <label for="topping">Design</label>
+
+            <input type="checkbox" name="toppings">
+            <label for="toppings">Electronics</label>
+
+        </div>
+
+        <br>
+
+        <div>Tell us why you want to join?
+            <br>
+            <textarea name="Why-join" id="Why-join" style="width: 95%; height: 70px;"></textarea>
+        </div>
+
+        <ol>Top Robotics Activities we offer
+        </ol>
+
+    </form>
+</body>
+</html>
